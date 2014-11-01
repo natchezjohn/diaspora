@@ -1,76 +1,95 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Diaspora* by diaspora</title>
-    
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="description" content="Diaspora* : Distributed and contextual social networking">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Diaspora*</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Diaspora*</h1>
-        <p>Distributed and contextual social networking</p>
-        <p class="view"><a href="https://github.com/diaspora/diaspora">View the Project on GitHub <small>diaspora/diaspora</small></a></p>
-        <ul>
-          <li><a href="https://github.com/diaspora/diaspora/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/diaspora/diaspora/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/diaspora/diaspora">Fork On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h2>Welcome to the Diaspora Project!</h2>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/natchezjohn/diaspora">View on GitHub</a>
+
+          <h1 id="project_title">Diaspora*</h1>
+          <h2 id="project_tagline">Distributed and contextual social networking</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/natchezjohn/diaspora/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/natchezjohn/diaspora/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a name="welcome-to-the-diaspora-project" class="anchor" href="#welcome-to-the-diaspora-project"><span class="octicon octicon-link"></span></a>Welcome to the Diaspora Project!</h2>
 
 <p>Diaspora is a privacy-aware, personally-controlled, do-it-all open source social network. Check out our <a href="http://diasporaproject.org">project site</a>.</p>
 
 <p><a href="http://travis-ci.org/diaspora/diaspora"><img src="https://secure.travis-ci.org/diaspora/diaspora.png" alt="Build Status"></a>
 <a href="https://gemnasium.com/diaspora/diaspora"><img src="https://gemnasium.com/diaspora/diaspora.png?travis" alt="Dependency Status"></a></p>
 
-<hr><p>Diaspora is currently going through a huge refactoring push, the code is changing fast!
+<hr>
+
+<p>Diaspora is currently going through a huge refactoring push, the code is changing fast!
 If you want to do something big, reach out on IRC or the mailing list first, so you can contribute effectively &lt;3333</p>
 
-<hr><p>With Diaspora you can:</p>
+<hr>
+
+<p>With Diaspora you can:</p>
 
 <ul>
 <li>Run and host your own pod and have control over your own social experience.</li>
 <li>Own your own data.</li>
 <li>Make friends across other pods seamlessly.</li>
-</ul><p>Documentation is available on our <a href="https://github.com/diaspora/diaspora/wiki">wiki</a></p>
+</ul>
+
+<p>Documentation is available on our <a href="https://github.com/diaspora/diaspora/wiki">wiki</a></p>
 
 <p><a href="https://github.com/diaspora/diaspora/wiki/Pull-Request-Guidelines">Pull Request Guidelines</a></p>
 
 <p>Before submitting code, feel free to sign our <a href="https://github.com/diaspora/diaspora/wiki/New-CLA--12-13-10">Contributor License Agreement</a> <a href="https://spreadsheets.google.com/a/joindiaspora.com/spreadsheet/viewform?formkey=dFdRTnY0TGtfaklKQXZNUndsMlJ2eGc6MQ">Sign Here</a></p>
 
-<h2>Quick Start:</h2>
+<h2>
+<a name="quick-start" class="anchor" href="#quick-start"><span class="octicon octicon-link"></span></a>Quick Start:</h2>
 
 <p>Here's how you can get a development environment up and running. You can check out system-specific guides <a href="https://github.com/diaspora/diaspora/wiki/Installation-Guides">here</a>.</p>
 
-<h3>Step 1: Download the script</h3>
+<h3>
+<a name="step-1-download-the-script" class="anchor" href="#step-1-download-the-script"><span class="octicon octicon-link"></span></a>Step 1: Download the script</h3>
 
 <pre><code>  curl https://raw.github.com/diaspora/diaspora/master/script/install.sh | /bin/sh
 </code></pre>
 
-<h3>Step 2: Follow the instructions</h3>
+<h3>
+<a name="step-2-follow-the-instructions" class="anchor" href="#step-2-follow-the-instructions"><span class="octicon octicon-link"></span></a>Step 2: Follow the instructions</h3>
 
-<h3>Step 3: Run the the development server</h3>
+<h3>
+<a name="step-3-run-the-the-development-server" class="anchor" href="#step-3-run-the-the-development-server"><span class="octicon octicon-link"></span></a>Step 3: Run the the development server</h3>
 
 <pre><code>  rails s
 </code></pre>
 
 <p>then visit 'http://localhost:3000' in your browser.</p>
 
-<h3>Step 4: Run tests</h3>
+<h3>
+<a name="step-4-run-tests" class="anchor" href="#step-4-run-tests"><span class="octicon octicon-link"></span></a>Step 4: Run tests</h3>
 
 <pre><code>  rake
 </code></pre>
 
-<h2>Resources:</h2>
+<h2>
+<a name="resources" class="anchor" href="#resources"><span class="octicon octicon-link"></span></a>Resources:</h2>
 
 <ul>
 <li><a href="https://github.com/diaspora/diaspora/wiki">Wiki</a></li>
@@ -81,12 +100,17 @@ If you want to do something big, reach out on IRC or the mailing list first, so 
 <li><a href="http://webchat.freenode.net?channels=diaspora-dev">IRC</a></li>
 </ul>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/diaspora">diaspora</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Diaspora* maintained by <a href="https://github.com/natchezjohn">natchezjohn</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
